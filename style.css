@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(212, 209, 209) ;
+}
+.profile{
+    border-radius: 50%;
+    height: 50px;
+    width: 70px;
+    margin-right: 10px;
+}
+h1{
+    align-self: flex-end;
+}
+h2{
+    clear: both;
+}
+nav{
+    height: 10vh;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(#357ee4,#6997b3,#bacddd);
+    border-radius: 10px;
+}
+.pro-nav{
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    width: 100vw;
+    height: 4em;
+    justify-content: space-between;
+}
+.text{
+     text-align: center;
+}
+h2{
+    text-align: center;
+}
+img{
+    height: 20vh;
+    border-radius: 10px;
+    float: left;
+    margin-right: 5px;
+}
+
+.left{
+    float: left;
+    width: 345px;
+}
+.right{
+    float: right;
+    width: 340px;
+}
+.interests>p{
+    text-align: center;
+}
+footer{
+    background-image: linear-gradient(#e1c4c4,#c75a5a);
+    text-align: center;
+    border-radius: 10px;
+}
+a{
+    margin-right: 30px;
+}
+@media (max-width:700px){
+    body{
+        display: block;
+    }
+    img{
+        float: none;
+    }
+    .image{
+        margin-left: 36vw;
+    }
+    h3{
+        text-align: center;
+    }
+    .card{
+        clear: both;
+        width: 100vw;
+        margin-right: 40px;
+        float: none;
+    }
+    p{
+        text-align: center;
+    }
+}
+@media (min-width:701px){
+    .skill{
+        display: flex;
+        height: 40vh;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
